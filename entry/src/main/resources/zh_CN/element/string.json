@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Music Nex"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Music Nex"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Music Nex"
+    },
+    {
+      "name": "keep_background_reason",
+      "value": "Music Nex 在后台继续播放，并在锁屏上显示正在播放的歌曲。"
+    }
+  ]
+}

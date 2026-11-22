@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Music Nex"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Music Nex"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Music Nex"
+    },
+    {
+      "name": "keep_background_reason",
+      "value": "Music Nex phát nhạc khi app ở nền và hiện bài hát trên màn hình khóa."
+    }
+  ]
+}

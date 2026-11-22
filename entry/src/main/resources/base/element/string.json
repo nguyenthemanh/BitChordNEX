@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Music Nex"
+    },
+    {
+      "name": "keep_background_reason",
+      "value": "Music Nex phát nhạc khi app ở nền và hiện bài hát trên Control Center, màn khóa và viên thuốc trạng thái."
+    }
+  ]
+}
