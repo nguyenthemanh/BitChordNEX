@@ -26,6 +26,32 @@ Music Nex là trình phát nhạc cho điện thoại, máy tính bảng và má
 
 Trình phát có lời đồng bộ, hàng đợi, tải xuống, cùng các tùy chọn âm thanh như chuyển bài mượt, chuẩn hóa âm lượng và bộ chỉnh âm. Ngôn ngữ trong app có thể theo hệ thống, hoặc chọn tiếng Anh, tiếng Việt, tiếng Trung, tiếng Nhật.
 
-## Build
+## Install / Build
 
-Open this folder in DevEco Studio and sign it on your own machine for a HarmonyOS NEXT device. Signing material is local and is not stored in this repository.
+### English
+- Install [DevEco Studio](https://developer.huawei.com/consumer/en/deveco-studio/) and the HarmonyOS NEXT SDK.
+- Clone this repository and open the project folder in DevEco Studio.
+- Connect a HarmonyOS NEXT device (or use an emulator) and complete local signing in Project Structure → Signing Configs. Signing keys stay on your machine and are not in this repo.
+- Click **Run** to build and install Music Nex on the device.
+- Open the app, sign in, and start playing.
+
+### 中文
+- 安装 [DevEco Studio](https://developer.huawei.com/consumer/cn/deveco-studio/) 以及 HarmonyOS NEXT SDK。
+- 克隆本仓库，并用 DevEco Studio 打开项目文件夹。
+- 连接 HarmonyOS NEXT 设备（或使用模拟器），在 Project Structure → Signing Configs 中完成本地签名。签名材料仅保存在本机，不会提交到本仓库。
+- 点击 **Run** 编译并将 Music Nex 安装到设备。
+- 打开应用、登录后即可播放。
+
+### 日本語
+- [DevEco Studio](https://developer.huawei.com/consumer/en/deveco-studio/) と HarmonyOS NEXT SDK をインストールします。
+- このリポジトリをクローンし、DevEco Studio でプロジェクトフォルダを開きます。
+- HarmonyOS NEXT デバイス（またはエミュレータ）を接続し、Project Structure → Signing Configs でローカル署名を設定します。署名情報はこのリポジトリには含まれません。
+- **Run** でビルドし、端末に Music Nex をインストールします。
+- アプリを開き、ログインして再生を開始します。
+
+### Tiếng Việt
+- Cài [DevEco Studio](https://developer.huawei.com/consumer/en/deveco-studio/) và SDK HarmonyOS NEXT.
+- Clone repo này, rồi mở thư mục dự án trong DevEco Studio.
+- Kết nối thiết bị HarmonyOS NEXT (hoặc emulator) và cấu hình ký local tại Project Structure → Signing Configs. Key ký chỉ nằm trên máy bạn, không có trong repo.
+- Bấm **Run** để build và cài Music Nex lên thiết bị.
+- Mở app, đăng nhập và nghe nhạc.
