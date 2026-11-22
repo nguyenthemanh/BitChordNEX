@@ -26,32 +26,40 @@ Music Nex là trình phát nhạc cho điện thoại, máy tính bảng và má
 
 Trình phát có lời đồng bộ, hàng đợi, tải xuống, cùng các tùy chọn âm thanh như chuyển bài mượt, chuẩn hóa âm lượng và bộ chỉnh âm. Ngôn ngữ trong app có thể theo hệ thống, hoặc chọn tiếng Anh, tiếng Việt, tiếng Trung, tiếng Nhật.
 
-## Install / Build
+## Install (HAP)
+
+Ready-to-install package: [`release/MusicNex.hap`](release/MusicNex.hap)
 
 ### English
-- Install [DevEco Studio](https://developer.huawei.com/consumer/en/deveco-studio/) and the HarmonyOS NEXT SDK.
-- Clone this repository and open the project folder in DevEco Studio.
-- Connect a HarmonyOS NEXT device (or use an emulator) and complete local signing in Project Structure → Signing Configs. Signing keys stay on your machine and are not in this repo.
-- Click **Run** to build and install Music Nex on the device.
-- Open the app, sign in, and start playing.
+- Download [`MusicNex.hap`](release/MusicNex.hap) from this repository.
+- On the phone: enable **Developer options** and **USB debugging**.
+- Connect the phone to a PC with [DevEco Studio](https://developer.huawei.com/consumer/en/deveco-studio/) / HarmonyOS command-line tools installed.
+- Run: `hdc install release/MusicNex.hap`
+- Open Music Nex, sign in, and play.
 
 ### 中文
-- 安装 [DevEco Studio](https://developer.huawei.com/consumer/cn/deveco-studio/) 以及 HarmonyOS NEXT SDK。
-- 克隆本仓库，并用 DevEco Studio 打开项目文件夹。
-- 连接 HarmonyOS NEXT 设备（或使用模拟器），在 Project Structure → Signing Configs 中完成本地签名。签名材料仅保存在本机，不会提交到本仓库。
-- 点击 **Run** 编译并将 Music Nex 安装到设备。
-- 打开应用、登录后即可播放。
+- 从本仓库下载 [`MusicNex.hap`](release/MusicNex.hap)。
+- 在手机上开启 **开发人员选项** 和 **USB 调试**。
+- 用电脑连接手机，并已安装 [DevEco Studio](https://developer.huawei.com/consumer/cn/deveco-studio/) / HarmonyOS 命令行工具。
+- 执行：`hdc install release/MusicNex.hap`
+- 打开 Music Nex，登录后即可播放。
 
 ### 日本語
-- [DevEco Studio](https://developer.huawei.com/consumer/en/deveco-studio/) と HarmonyOS NEXT SDK をインストールします。
-- このリポジトリをクローンし、DevEco Studio でプロジェクトフォルダを開きます。
-- HarmonyOS NEXT デバイス（またはエミュレータ）を接続し、Project Structure → Signing Configs でローカル署名を設定します。署名情報はこのリポジトリには含まれません。
-- **Run** でビルドし、端末に Music Nex をインストールします。
-- アプリを開き、ログインして再生を開始します。
+- このリポジトリから [`MusicNex.hap`](release/MusicNex.hap) をダウンロードします。
+- 端末で **開発者向けオプション** と **USB デバッグ** を有効にします。
+- PC に [DevEco Studio](https://developer.huawei.com/consumer/en/deveco-studio/) / HarmonyOS コマンドラインツールを入れ、端末を接続します。
+- 実行：`hdc install release/MusicNex.hap`
+- Music Nex を開き、ログインして再生します。
 
 ### Tiếng Việt
-- Cài [DevEco Studio](https://developer.huawei.com/consumer/en/deveco-studio/) và SDK HarmonyOS NEXT.
-- Clone repo này, rồi mở thư mục dự án trong DevEco Studio.
-- Kết nối thiết bị HarmonyOS NEXT (hoặc emulator) và cấu hình ký local tại Project Structure → Signing Configs. Key ký chỉ nằm trên máy bạn, không có trong repo.
-- Bấm **Run** để build và cài Music Nex lên thiết bị.
-- Mở app, đăng nhập và nghe nhạc.
+- Tải [`MusicNex.hap`](release/MusicNex.hap) từ repo này.
+- Trên điện thoại: bật **Tùy chọn nhà phát triển** và **USB debugging**.
+- Kết nối máy với PC đã cài [DevEco Studio](https://developer.huawei.com/consumer/en/deveco-studio/) / công cụ dòng lệnh HarmonyOS.
+- Chạy: `hdc install release/MusicNex.hap`
+- Mở Music Nex, đăng nhập và nghe nhạc.
+
+## Build from source
+
+- Install DevEco Studio and the HarmonyOS NEXT SDK.
+- Open this project folder, set local signing in Project Structure → Signing Configs (keys stay on your machine).
+- Click **Run** to build and install, or rebuild `release/MusicNex.hap` from the signed output.
